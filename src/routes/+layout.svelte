@@ -7,8 +7,6 @@
 	import type { Snippet } from 'svelte';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
-	export const prerender = true;
-	export const trailingSlash = "always";
 </script>
 
 <ModeWatcher />
